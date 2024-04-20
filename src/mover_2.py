@@ -5,6 +5,8 @@ from geometry_msgs.msg import Twist
 #Cambio en la rama develop
 
 def move_turtle():
+
+    print("INICIO DE MOVE TURTLE")
     # Inicializa el nodo de ROS llamado "move_turtle"
     rospy.init_node('move_turtle', anonymous=True)
 
